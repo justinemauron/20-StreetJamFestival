@@ -8,3 +8,22 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.link-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: -80px;
+}
+
+.img-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
