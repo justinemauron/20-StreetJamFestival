@@ -59,6 +59,18 @@ h2 {
   padding-left: 23px;
 }
 
+.long-text {
+  font-family: 'Mohave', sans-serif;
+  font-size: 17px;
+  color: #000000;
+  margin: 0;
+  padding: 0 23px 0 117px;
+}
+
+.long-text br {
+  padding: 30px 0;
+}
+
 .container-music {
   position: relative;
 }
@@ -109,3 +121,26 @@ h2 {
   font-size: 17px;
 }
 
+.schedule-skate {
+  font-family: 'Mohave', sans-serif;
+  font-size: 17px;
+  margin: 0;
+}
+
+.portrait-lr {
+  width: 100%;
+  padding: 30px 0 13px 0;
+}
+
+.portrait-rl {
+  width: 100%;
+  padding-top: 13px;
+}
+
+.last-infos-skate {
+  padding: 13px 23px 30px 117px;
+}
+
+.first-infos-food {
+  padding-bottom: 30px; 
+}
