@@ -3,31 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mohave:wght@400;600&family=Plaster&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <title>Street Jam Festival</title>
   </head>
   <body>
     <header>
-      <div class="language">
-        <p>FR/DE</p>
-      </div>
+        <p class="language">FR/DE</p>
       <h1>Street Jam Festival</h1>
       <nav>
-        <div class="menu-jam">
+        <div class="link-container">
           <img src="img/bombes-menu.png" alt="bombes de peinture">
-          <a href="#street-jam" class="link-festival">
+          <a href="#street-jam">
             Street <br>Jam <br>Festival
           </a>
         </div>
-        <div class="menu-food">
+        <div class="link-container">
           <img src="img/burger-menu.png" alt="burger">
-          <a href="#street-food" class="link-food">
+          <a href="#street-food">
             Street <br>Food
           </a>
         </div>
-        <div class="menu-contact">
+        <div class="link-container">
           <img src="img/skate-menu.png" alt="skateur">
-          <a href="contact" class="link-contact">
+          <a href="#contact">
             Contact
           </a>
         </div>
@@ -35,7 +38,7 @@
     </header>
     <hr>
     <main>
-      <h2 class="jam-section">Street jam festival</h2>
+      <h2 id="street-jam" class="jam-section">Street jam festival</h2>
       <p class="long-text">
         Le 15 octobre 2023, Vevey célèbre les tendances actuelles en matière 
         d’art urbain et de musique, et rassemble une communauté de personnes 
@@ -52,22 +55,17 @@
         papilles des visiteur.ice.s.
       </p>
       <h2 class="jam-section">Tags/Graffiti/Street Art</h2>
-      <div class="schedule-graff">
-        <p>09h00-11h00</p>
+        <p class="schedule-graff">09h00-11h00</p>
         <div class="legend-graff">
           <img src="img/graff-session.png" alt="graffiti">
           <p>Sessions libres</p>
-        </div>
-      </div>
-      <div class="schedule-graff">
-        <p>10h00-12h00</p>
+        </div> 
+        <p class="schedule-graff">10h00-12h00</p>
         <div class="legend-graff">
           <img src="img/graff-atelier.png" alt="graffiti">
           <p>Atelier de graffiti interactif avec Frizzy Frizz</p>
         </div>
-      </div>
-      <div class="schedule-graff">
-        <p>13h30-17h00</p>
+        <p class="schedule-graff">13h30-17h00</p>
         <div class="legend-graff">
           <img src="img/graff-manos.png" alt="graffiti">
           <p>Démonstration de Manos68 et sessions libres</p>
@@ -176,26 +174,26 @@
         Atelier de musique urbaine pour les amateur.ice.s de beatmaking et 
         de rap
       </p>
-      <div class="schedule-music">
+      <div class="schedule-music container-music">
         <p>15h00-17h00</p>
         <img src="img/musique-debut.png" alt="enfant qui joue du banjo">
       </div>
       <p class="music-text">
         Concert de hip-hop avec des artistes locaux et nationaux
       </p>
-      <div class="schedule-music">
+      <div class="schedule-music container-music">
         <p>17h00-23h00</p>
         <img src="img/musique-millieu.png" alt="mains de gens qui dansent">
       </div>
       <p class="music-text">
         Fin de la journée
       </p>
-      <div class="schedule-music">
+      <div class="schedule-music container-music">
         <p>00h00</p>
         <img src="img/musique-fin.png" alt="lumière d'une scène de concert">
       </div>
       <hr>
-      <h2 class="food-section">Street Food</h2>
+      <h2 id="street-food" class="food-section">Street Food</h2>
       <p class="long-text">
         Notre festival vous propose une variété de stands de retsauration sur 
         place tout au long de la journée. Vous pourrez notamment découvrir:
@@ -268,7 +266,7 @@
     </main>
     <hr>
     <footer>
-      <h2 class="contact-section">Contact</h2>
+      <h2 id="contact" class="contact-section">Contact</h2>
       <div class="infos-contact">
         <p class="long-text">
           Street Jam Festival<br>Place du Marché 2<br>1800 Vevey
