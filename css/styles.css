@@ -158,3 +158,93 @@ h2 {
 .container-music img {
   padding-left: 23px;
 }
+
+.container-skate-photos {
+  display: flex;
+  justify-content: space-between;
+  padding: 23px;
+}
+
+.container-skate-photos-inside {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.mail {
+  font-family: 'Mohave', sans-serif;
+  font-size: 20px;
+  color: black;
+  margin: 0;
+  padding: 0 23px 0 117px;
+}
+
+.contact-infos {
+  padding-bottom: 30px;
+}
+
+.container-food-right {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 23px;
+}
+
+.container-food-infos-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+h3{
+  font-family: 'Mohave', sans-serif;
+  font-size: 35px;
+  font-weight: bolder;
+  color: black;
+  text-align: right;
+  margin: 0;
+  text-transform: capitalize;
+}
+
+.food-text-right {
+  font-family: 'Mohave', sans-serif;
+  font-size: 17px;
+  color: black;
+  text-align: right;
+  margin: 0;
+}
+
+.container-food-left {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 23px;
+}
+
+.container-food-infos-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+.title-left {
+  font-family: 'Mohave', sans-serif;
+  font-size: 35px;
+  font-weight: bolder;
+  color: black;
+  text-align: left;
+  margin: 0;
+  text-transform: capitalize;
+}
+
+.food-text-left {
+  font-family: 'Mohave', sans-serif;
+  font-size: 17px;
+  color: black;
+  text-align: left;
+  margin: 0;
+}
+
+.contact-photo {
+  margin: 0;
+  padding: 30px 23px;
+}
