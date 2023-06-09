@@ -13,17 +13,6 @@ img {
   max-width: 100%;
 }
 
-.language {
-  font-family: 'Mohave', sans-serif;
-  font-size: 20px;
-  border: 1px solid #000000;
-  text-align: right;
-  padding-right: 23px;
-  margin: 30px 0 53px 280px;
-  border-top-left-radius: 50px;
-  border-bottom-left-radius: 50px;
-}
-
 h1 {
   font-family: 'Plaster', cursive;
   font-size: 57px;
@@ -124,6 +113,7 @@ h2 {
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
   width: fit-content;
+  padding-left: 23px;
   margin-left: 0;
   border-left: none;
 }
@@ -138,7 +128,7 @@ h2 {
   top: 10px;
   right: 30px;
   margin: 0;
-  padding-left: 10px;
+  padding: 0 10px;
 }
 
 .portrait-lr {
