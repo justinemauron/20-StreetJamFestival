@@ -81,6 +81,7 @@ h2 {
   font-size: 17px;
   font-weight: bolder;
   padding-top: 30px;
+  color: #0031FF;
 }
 
 .legend-graff {
@@ -102,6 +103,7 @@ h2 {
 .legend-graff img {
   border-top-right-radius: 60px;
   border-bottom-right-radius: 60px;
+  margin-top: -7px;
 }
 
 .portrait-lr {
@@ -143,7 +145,7 @@ h2 {
   font-family: 'Mohave', sans-serif;
   font-size: 17px;
   font-weight: bolder;
-  color: black;
+  color: #0031FF;
   display: inline-block;
   position: relative;
   top: 10px;
@@ -208,6 +210,7 @@ h2 {
   font-family: 'Mohave', sans-serif;
   font-size: 17px;
   font-weight: bolder;
+  color: #0031FF;
 }
 
 .container-music img,
@@ -216,6 +219,7 @@ h2 {
   border-bottom-right-radius: 150px;
   width: 325px;
   padding-left: 23px;
+  margin-top: -7px;
 }
 
 .mail {
