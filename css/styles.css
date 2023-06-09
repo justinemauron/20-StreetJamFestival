@@ -2,7 +2,7 @@ body {
   max-width: 375px;
   margin: auto;
   background: #ddd;
-  background-image: url(../img/bg-beton.jpg);
+  background-image: url(../img/bg-ciment.jpg);
   background-repeat: no-repeat;
   background-position: center;
   border: 1px solid #0031FF;
@@ -14,10 +14,6 @@ img {
 }
 
 h1 {
-  font-family: 'Plaster', cursive;
-  font-size: 57px;
-  color: #0031FF;
-  text-transform: uppercase;
   padding: 0 23px;
   margin-bottom: 53px;
 }
