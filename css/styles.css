@@ -5,7 +5,7 @@ body {
   background-image: url(../img/bg-beton.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  border: 2px solid #0031FF;
+  border: 1px solid #0031FF;
 }
 
 img {
@@ -20,11 +20,6 @@ h1 {
   text-transform: uppercase;
   padding: 0 23px;
   margin-bottom: 53px;
-}
-
-.img-nav {
-  display: flex;
-  flex-direction: row;
 }
 
 nav {
@@ -64,11 +59,18 @@ h2 {
   position: relative;
 }
 
+.link-container img {
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  width: 93px;
+}
+
 .link-container a {
   position: absolute;
   bottom: 10px;
   left: 10px;
-  color: white;
+  color: black;
+  background-color: #ffffff90;
   margin: 0;
   font-family: 'Mohave', sans-serif;
   font-size: 20px;
@@ -76,25 +78,48 @@ h2 {
 }
 
 .schedule-graff {
-  text-align: right;
-  margin: 30px 57px 0 0;
+  text-align: left;
+  margin: 0;
+  margin-left: 235px;
   font-family: 'Mohave', sans-serif;
   font-size: 17px;
   font-weight: bolder;
+  padding-top: 30px;
 }
 
 .legend-graff {
   position: relative;
+  padding: 0 23px;
 }
 
 .legend-graff p {
   position: absolute;
   bottom: 10px;
   left: 33px;
-  color: white;
+  color: black;
+  background-color: #ffffff90;
   margin: 0;
   font-family: 'Mohave', sans-serif;
   font-size: 17px;
+}
+
+.legend-graff img {
+  border-top-right-radius: 60px;
+  border-bottom-right-radius: 60px;
+}
+
+.portrait-lr {
+  border-top-right-radius: 150px;
+  border-bottom-right-radius: 150px;
+  width: 100%;
+  padding: 30px 0 13px 0;
+}
+
+.portrait-rl {
+  border-top-left-radius: 150px;
+  border-bottom-left-radius: 150px;
+  width: 100%;
+  padding-top: 13px;
 }
 
 .container-schedule-skate {
@@ -131,22 +156,38 @@ h2 {
   padding: 0 10px;
 }
 
-.portrait-lr {
-  width: 100%;
-  padding: 30px 0 13px 0;
+.container-skate-photos {
+  display: flex;
+  justify-content: space-between;
+  padding: 23px;
+  width: 320px;
 }
 
-.portrait-rl {
-  width: 100%;
-  padding-top: 13px;
+.container-skate-photos-inside {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 211px;
+}
+
+.picture-vertical {
+  width: 92px;
+  border-top-right-radius: 150px;
+  border-top-left-radius: 150px;
+}
+
+.picture-horizontal-lr {
+  border-top-right-radius: 150px;
+  border-bottom-right-radius: 150px;
+}
+
+.picture-horizontal-rl {
+  border-top-left-radius: 150px;
+  border-bottom-left-radius: 150px;
 }
 
 .last-infos-skate {
-  padding: 13px 23px 30px 117px;
-}
-
-.first-infos-food {
-  padding-bottom: 30px; 
+  padding: 27px 23px 30px 117px;
 }
 
 .beatmaking {
@@ -165,39 +206,36 @@ h2 {
 }
 
 .schedule-music {
-  text-align: right;
-  margin: 0 57px 0 0;
+  text-align: left;
+  margin: 0;
+  margin-left: 235px;
   font-family: 'Mohave', sans-serif;
   font-size: 17px;
   font-weight: bolder;
 }
 
-.container-music img {
+.container-music img,
+.contact-photo {
+  border-top-right-radius: 150px;
+  border-bottom-right-radius: 150px;
+  width: 325px;
   padding-left: 23px;
-}
-
-.container-skate-photos {
-  display: flex;
-  justify-content: space-between;
-  padding: 23px;
-}
-
-.container-skate-photos-inside {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 }
 
 .mail {
   font-family: 'Mohave', sans-serif;
   font-size: 20px;
-  color: black;
+  color: #0031FF;
   margin: 0;
   padding: 0 23px 0 117px;
 }
 
 .contact-infos {
   padding-bottom: 30px;
+}
+
+.first-infos-food {
+  padding-bottom: 30px; 
 }
 
 .container-food-right {
@@ -264,4 +302,11 @@ h3{
 .contact-photo {
   margin: 0;
   padding: 30px 23px;
+}
+
+.food-right,
+.food-left {
+  width: 115px;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
 }
